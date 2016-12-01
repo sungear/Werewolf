@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Werewolf</string>
+    <string name="main_start">Start</string>
+    <string name="username">Username</string>
+    <string name="connexion_signIn">Sign In</string>
+    <string name="statusFragm_role">Role</string>
+    <string name="statusFragm_livingStatus">Status</string>
+    <string name="statusFragm_GM">Round GM</string>
+    <string name="statusFragm_activity">Activity</string>
+    <string name="gmFragm_startChoosing">Start Choosing!</string>
+    <string name="popUp_exitGame">Exit Game</string>
+    <string name="popUp_returnGame">Return to Game</string>
+    <string name="confirm">Confirm</string>
+    <string name="witchSave">Resurrect : </string>
+    <string name="witchKill">Poison : </string>
+</resources>

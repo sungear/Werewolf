@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WerewolfV2</string>
+    <!--Global-->
+    <string name="btn_confirm">Confirm</string>
+    <!--Initial Activity-->
+    <string name="btn_createParty">Create a Party</string>
+    <string name="btn_joinParty">Join a Party</string>
+    <!--CreateParty Activity-->
+    <string name="et_createParty_partyName">Name of your Party</string>
+    <string name="et_createParty_password">Password (optional)</string>
+    <!--JoinParty Activity-->
+    <string name="et_joinParty_partyName">Name of your Party</string>
+    <string name="et_joinParty_password">Password (optional)</string>
+</resources>

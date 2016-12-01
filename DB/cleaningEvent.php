@@ -1,0 +1,6 @@
+<?php
+CREATE EVENT clean_user_table
+ON SCHEDULE EVERY 12 HOUR
+DO
+DELETE FROM user WHERE TIMESTAMP(NOW()) - TIMESTAMP(datetime) > 300
+?>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuGlobal"
+        android:title="Gloabal Menu"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/menuLeaveParty"
+                android:title="Leave Party"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuLogOut"
+                android:title="Log Out"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuExitGame"
+                android:title="Exit Game"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_statusFragm_usernameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username : "/>
+
+    <TextView
+        android:id="@+id/tv_statusFragm_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_statusFragm_usernameS"
+        android:text="@string/username"/>
+
+    <TextView
+        android:id="@+id/tv_statusFragm_GMS"
+        android:layout_below="@+id/tv_statusFragm_usernameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Round GM : "/>
+
+    <TextView
+        android:id="@+id/tv_statusFragm_GM"
+        android:layout_below="@+id/tv_statusFragm_usernameS"
+        android:layout_toRightOf="@+id/tv_statusFragm_GMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statusFragm_GM"/>
+
+    <TextView
+    android:id="@+id/tv_statusFragm_roleS"
+    android:layout_toRightOf="@+id/tv_statusFragm_usernameS"
+    android:layout_marginLeft="150dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Role : "/>
+
+    <TextView
+    android:id="@+id/tv_statusFragm_role"
+    android:layout_alignParentRight="true"
+    android:layout_toRightOf="@+id/tv_statusFragm_roleS"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/statusFragm_role"/>
+
+    <TextView
+        android:id="@+id/tv_statusFragm_statusS"
+        android:layout_below="@+id/tv_statusFragm_roleS"
+        android:layout_toRightOf="@+id/tv_statusFragm_GMS"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : "/>
+
+    <TextView
+        android:id="@+id/tv_statusFragm_status"
+        android:layout_below="@+id/tv_statusFragm_roleS"
+        android:layout_toRightOf="@+id/tv_statusFragm_statusS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statusFragm_livingStatus"/>
+
+    <TextView
+    android:id="@+id/tv_statusFragm_activityS"
+    android:layout_toRightOf="@+id/tv_statusFragm_GMS"
+    android:layout_below="@+id/tv_statusFragm_GMS"
+    android:layout_marginLeft="150dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Activity : "/>
+
+    <TextView
+    android:id="@+id/tv_statusFragm_activity"
+    android:layout_below="@+id/tv_statusFragm_GMS"
+    android:layout_toRightOf="@+id/tv_statusFragm_activityS"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/statusFragm_activity"/>
+
+</RelativeLayout>
